@@ -1,0 +1,23 @@
+.account {
+  margin: auto;
+  margin-left: 300px;
+  width: 65%;
+  margin-bottom: 5px;
+  text-align: center;
+}
+.accountButton {
+  cursor: pointer;
+  color: white;
+  border-radius: 12px;
+}
+.accountButton:hover {
+  color: white;
+}
+.initButton {
+  cursor: pointer;
+  color: white;
+  border-radius: 12px;
+}
+.initButton:hover {
+  color: white;
+}

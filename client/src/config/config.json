@@ -1,0 +1,9 @@
+{
+  "credit": "Lisk Snake by Delegate anonimowy891",
+  "nodes": ["http://127.0.0.1:4000"],
+  "initPass":"here put init account passphrase",
+  "initAccount": "init account adress",
+  "rewardPass":"here put reward account passphrase",
+  "rewardAccount":"reward account adress",
+  "consoleDefaultText": "Welcome to Lisk Snake!\nA simply blockchain game build with the Lisk SDK and Lisk Elements created by delegate anonimowy891 and forked from korben3.\n\nNew user:\n1: Click on create account to generate a new passphrase.\n2: Save the passphrase somewhere and click on the Login button.\n3: Click initialize to receive LSN tokens.\n4: Click start game to play.\n"
+}

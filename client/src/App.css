@@ -1,0 +1,98 @@
+* {
+  box-sizing: border-box;
+}
+
+@media screen and (max-width: 450px) {
+  body table {
+    margin-left: 10px;
+    margin-right: 10px;
+  }
+
+  body .colors {
+    width: 374px;
+  }
+}
+
+input {
+  width: 40%;
+  height: 25px;
+}
+
+button {
+  background-color: #2929d3;
+  border: none;
+  color: white;
+  padding: 10px;
+  text-align: center;
+}
+button:hover {
+  background-color: #2222bb;
+}
+
+a:hover {
+  color: white;
+}
+
+body {
+  margin: 0;
+  font-family: "Open-Sans", sans-serif;
+  color: white;
+  background-color: rgb(6, 22, 65);
+}
+.game-area {
+  position: relative;
+  margin: 20px auto;
+  max-width: 1024px;
+  height: 640px;
+  border: 18px solid navy;
+}
+
+.snake-dot {
+  position: absolute;
+  width: 30px;
+  height: 30px;
+  background: url(./components/img/food.png) center no-repeat;  
+  z-index: 2;
+  border: 0.5px solid rgba(161, 161, 161, 0.651);
+
+}
+
+.snake-food {
+  position: absolute;
+  width: 30px;
+  height: 30px;
+  z-index: 1;
+  background: url(./components/img/minion.png) center no-repeat;
+  border: 0.5px solid rgba(161, 161, 161, 0.651);
+
+}
+
+.snake-extra-food {
+  position: absolute;
+  width: 30px;
+  height: 30px;
+  z-index: 1;
+  background: url(./components/img/lambo.png) center no-repeat;
+  border: 0.5px solid rgba(161, 161, 161, 0.651);
+
+}
+
+.StartButton {
+  position: absolute;
+  width: 100px;
+  height: 30px;
+  z-index: 1;
+  top: 40%;
+  left: 45%;
+  border-radius: 12px;
+  
+}
+.score {
+  position: absolute;
+  width: 150px;
+  height: 20px;
+  z-index: 1;
+  margin-top: -35px;
+  margin-left: -15px;
+
+}
